@@ -31,7 +31,6 @@ export default function PilotCard({ pilot }: { pilot: Pilot }) {
           <div className={s.overlayContent}>
             <div className={s.badges}>
               <span className={s.tag}>{pilot.category}</span>
-              <span className={s.tagMuted}>dal {pilot.since}</span>
             </div>
 
             <div className={s.bottom}>
