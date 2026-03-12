@@ -50,7 +50,10 @@ export default function AboutSection() {
           <div className={styles.copy}>
             <div className={styles.overline}>{t("kicker")}</div>
             <h2 className={styles.title}>{t("title")}</h2>
-            <p className={styles.lead}>{t("lead")}</p>
+
+            {/* ↓ Due paragrafi separati invece di uno solo lungo */}
+            <p className={styles.lead}>{t("lead1")}</p>
+            <p className={styles.lead}>{t("lead2")}</p>
 
             <ul className={styles.points}>
               <li>{t("points.0")}</li>

@@ -11,44 +11,45 @@
     "ctaServices": "Explore services",
     "ctaDriversRaces": "Drivers & Races"
   },
-"About": {
-  "kicker": "About us",
-  "title": "One team, one vision",
-  "lead": "PKT was founded in 2016 and took part in its first competitions within the KartSport Circuit championship. In just a few years, driven by increasing demand and the growth of the project, the team evolved from an amateur spirit into a professional reality—starting with participation in the IAME X30 Italy championship and gradually expanding its commitments and the level of karting competitions it entered, achieving significant results along the way. In recent seasons, thanks to the passion of its founder, Stefano Matteuzzi, and the dedication and hard work of the team, PKT has structured itself to compete in multiple championships within a single season, in order to provide and guarantee a high-level service to its drivers. This has allowed us to broaden our know-how and establish ourselves as a team ready to take on new competitive challenges.Our goal is to grow and develop young drivers, helping them face national and international races with professionalism and discipline. We work in synergy to offer our clients professionalism, quality, efficiency, and elegance—supporting them as they pursue and achieve their dreams.",
-  "points": [
-    "Since 2016: steady growth and results on track",
-    "Development path for young drivers and families",
-    "Professionalism, quality, efficiency and elegance"
-  ],
-  "carouselLabel": "Photo gallery",
-  "swipeHint": "Swipe",
-  "badge": "Since 2016",
-  "prev": "Previous slide",
-  "next": "Next slide",
-  "dotsLabel": "Select a slide",
-  "goTo": "Go to slide {index}",
-  "slides": [
-    {
-      "alt": "Team at the track",
-      "title": "Trackside support",
-      "caption": "Constant presence and technical support during tests and race weekends."
-    },
-    {
-      "alt": "Kart in action",
-      "title": "Driver development",
-      "caption": "A growth journey: from karting school to national and international competitions."
-    },
-    {
-      "alt": "Team briefing",
-      "title": "Method & discipline",
-      "caption": "Organization, attention to detail and teamwork for consistent performance."
-    }
-  ]
-},
+  "About": {
+    "kicker": "About us",
+    "title": "One team, one vision",
+    "lead1": "Founded in 2016, PKT quickly grew from an amateur project into a professional team, entering the IAME X30 Italy championship and achieving significant results. Thanks to the passion of founder Stefano Matteuzzi and the dedication of the team, PKT now competes across multiple championships in a single season.",
+    "lead2": "Our goal is to develop young drivers and help them compete at national and international level with professionalism, discipline, and elegance — supporting them every step of the way.",
+    "points": [
+      "Since 2016: steady growth and results on track",
+      "Development path for young drivers and families",
+      "Professionalism, quality, efficiency and elegance"
+    ],
+    "carouselLabel": "Photo gallery",
+    "swipeHint": "Swipe",
+    "badge": "Since 2016",
+    "prev": "Previous slide",
+    "next": "Next slide",
+    "dotsLabel": "Select a slide",
+    "goTo": "Go to slide {index}",
+    "slides": [
+      {
+        "alt": "Team at the track",
+        "title": "Trackside support",
+        "caption": "Constant presence and technical support during tests and race weekends."
+      },
+      {
+        "alt": "Kart in action",
+        "title": "Driver development",
+        "caption": "A growth journey: from karting school to national and international competitions."
+      },
+      {
+        "alt": "Team briefing",
+        "title": "Method & discipline",
+        "caption": "Organization, attention to detail and teamwork for consistent performance."
+      }
+    ]
+  },
   "History": {
     "kicker": "History",
     "title": "Our story",
-    "lead": "From the team’s early days to consistent growth on track: a journey built on method, discipline and clear goals.",
+    "lead": "From the team's early days to consistent growth on track: a journey built on method, discipline and clear goals.",
     "items": [
       {
         "year": "2018",
@@ -76,7 +77,7 @@
       }
     ]
   },
-    "partners": {
+  "partners": {
     "partnersTitle": "Partners",
     "supportersTitle": "Supporters",
     "items": {
@@ -103,114 +104,114 @@
     "lead": "All season dates and track events.\nAutomatically updated via Google Drive."
   },
   "Services": {
-  "kicker": "Overview",
-  "title": "Services",
-  "lead": "Full trackside support and development pathways designed for those who want to experience karting with a structured approach. From race logistics to the training of young drivers, the team supports you at every stage—with organization, attention to detail, and a clear goal: to improve weekend after weekend.",
-  "nav": {
-    "ariaLabel": "Jump to a section",
-    "assistance": "Assistance",
-    "kartingSchool": "Karting School"
-  },
-  "imgAlt": "Photo {index}",
-  "highlightsAria": "Key service highlights",
-  "highlights": [
-    { "title": "Trackside assistance", "text": "Vehicle setup, spare parts, coaching, and race weekend management." },
-    { "title": "Karting school", "text": "A guided path for kids and teens, from basics to first races." },
-    { "title": "Progression", "text": "Method, realistic goals and steady improvement race after race." }
-  ],
-  "assistance": {
-  "title": "Assistance",
-  "lead": "On race weekends, being ready makes all the difference. With our assistance service, we support you from preparation to on-track performance, handling set-up, checks, and operational management. Essential equipment is prepared by the team: you travel light and focus on driving and performance—no stress, no unnecessary load.",
-  "points": [
-    "Full trackside support throughout the race weekend",
-    "Equipment and essentials already prepared by the team",
-    "Travel with peace of mind: you arrive and everything is ready"
-  ],
-  "noteLabel": "Why it works",
-  "noteText": "We reduce the organizational workload and increase the quality of your time on track: more focus, more consistency, better results.",
-  "highlightTitle": "A worry-free weekend",
-  "highlightText": "Organization, technical support, and everything you need already at the track: you just focus on driving.",
-  "tabsAriaLabel": "Select a category",
-  "pill1": "Trackside",
-  "pill2": "Set-up",
-  "pill3": "Logistics",
-  "tabs": {
-    "trackside": {
-      "miniLeftTitle": "What you bring",
-      "miniLeftText": "Helmet, gear, and anything you need to feel comfortable at the track.",
-      "miniRightTitle": "What we bring",
-      "miniRightText": "Technical support, organization, and essential equipment already prepared by the team."
+    "kicker": "Overview",
+    "title": "Services",
+    "lead": "Full trackside support and development pathways designed for those who want to experience karting with a structured approach. From race logistics to the training of young drivers, the team supports you at every stage—with organization, attention to detail, and a clear goal: to improve weekend after weekend.",
+    "nav": {
+      "ariaLabel": "Jump to a section",
+      "assistance": "Assistance",
+      "kartingSchool": "Karting School"
     },
-    "setup": {
-      "singleTitle": "Set-up",
-      "singleText": "We always work to deliver a kart that matches the driver’s style, with high-quality technical support and winning partners."
-    },
-    "logistica": {
-      "miniLeftTitle": "Equipment & pit area",
-      "miniLeftText": "Everything is already at the track: tent, dedicated area and assigned pit space for each driver, with fully equipped vehicles to cover every weekend need.",
-      "miniRightTitle": "Hospitality area",
-      "miniRightText": "An additional Hospitality area where families and guests can spend time together in comfort during race weekends."
-    }
-  }
-},
-  "tabsAriaLabel": "Select a category",
-"tabs": {
-  "trackside": {
-    "highlightText": "We prepare everything you need and support you at every stage: equipment always in order, 360° technical assistance, coaching with telemetry data analysis and video review with line selection to help you grow and improve consistently—reaching national and international-level results. The goal is simple: to let you race in the best possible conditions.",
-    "miniLeftTitle": "What you bring",
-    "miniLeftText": "Helmet, clothing and whatever you need to stay comfortable at the track.",
-    "miniRightTitle": "What we bring",
-    "miniRightText": "Technical support, organisation and essential equipment already prepared by the team."
-  },
-  "setup": {
-    "highlightText": "We take care of set-up and checks so you hit the track with a kart that’s ready and consistent: inspections, adjustments and technical management to maximise performance, reducing unexpected issues and wasted time.",
-    "miniLeftTitle": "What you bring",
-    "miniLeftText": "Your personal gear and whatever you prefer to have with you in the paddock.",
-    "miniRightTitle": "What we bring",
-    "miniRightText": "Checks, set-up, technical support and operational management throughout the weekend."
-  },
-  "logistica": {
-    "highlightText": "We handle the organisational side of the weekend: preparation, coordination and continuous support. You travel light and focus on driving and performance—no stress and no unnecessary loads.",
-    "miniLeftTitle": "What you bring",
-    "miniLeftText": "You arrive light: personal gear and the essentials to stay comfortable.",
-    "miniRightTitle": "What we bring",
-    "miniRightText": "Organisation, essential equipment and full support already prepared by the team."
-  }
-},
-  "kartingSchool": {
-    "title": "Karting School",
-    "lead": "A dedicated path for kids and teens, designed to enter karting the right way: gradual onboarding, driving technique, good habits and steady progression.\nFrom karting school to the first races, we support drivers and families with a clear method, realistic goals and track presence.",
-    "points": [
-      "Start young and progress by age and category",
-      "Training, technique, and a \"racer’s\" mindset.",
-      "Competition support with dedicated assistance"
+    "imgAlt": "Photo {index}",
+    "highlightsAria": "Key service highlights",
+    "highlights": [
+      { "title": "Trackside assistance", "text": "Vehicle setup, spare parts, coaching, and race weekend management." },
+      { "title": "Karting school", "text": "A guided path for kids and teens, from basics to first races." },
+      { "title": "Progression", "text": "Method, realistic goals and steady improvement race after race." }
     ],
-    "tipLabel": "Guided path",
-    "tipText": "Every driver has different timing: we build a tailored path, keeping consistency and peace of mind for both driver and family.",
-    "prev": "Previous slide",
-    "next": "Next slide",
-    "dotsLabel": "Select a photo",
-    "goTo": "Go to photo {index}",
-    "carouselLabel": "Karting school photo gallery",
-    "swipeHint": "Swipe",
-    "imgAlt": "Photo {index}"
-  }
-},
-"CookieBanner": {
+    "assistance": {
+      "title": "Assistance",
+      "lead": "On race weekends, being ready makes all the difference. With our assistance service, we support you from preparation to on track performance, handling set up, checks, and operational management. Essential equipment is prepared by the team: you travel light and focus on driving and performance—no stress, no unnecessary load.",
+      "points": [
+        "Full trackside support throughout the race weekend",
+        "Equipment and essentials already prepared by the team",
+        "Travel with peace of mind: you arrive and everything is ready"
+      ],
+      "noteLabel": "Why it works",
+      "noteText": "We reduce the organizational workload and increase the quality of your time on track: more focus, more consistency, better results.",
+      "highlightTitle": "A worry free weekend",
+      "highlightText": "Organization, technical support, and everything you need already at the track: you just focus on driving.",
+      "tabsAriaLabel": "Select a category",
+      "pill1": "Trackside",
+      "pill2": "Set up",
+      "pill3": "Logistics",
+      "tabs": {
+        "trackside": {
+          "miniLeftTitle": "What you bring",
+          "miniLeftText": "Helmet, gear, and anything you need to feel comfortable at the track.",
+          "miniRightTitle": "What we bring",
+          "miniRightText": "Technical support, organization, and essential equipment already prepared by the team."
+        },
+        "setup": {
+          "singleTitle": "Set up",
+          "singleText": "We always work to deliver a kart that matches the driver's style, with high quality technical support and winning partners."
+        },
+        "logistica": {
+          "miniLeftTitle": "Equipment & pit area",
+          "miniLeftText": "Everything is already at the track: tent, dedicated area and assigned pit space for each driver, with fully equipped vehicles to cover every weekend need.",
+          "miniRightTitle": "Hospitality area",
+          "miniRightText": "An additional Hospitality area where families and guests can spend time together in comfort during race weekends."
+        }
+      }
+    },
+    "tabsAriaLabel": "Select a category",
+    "tabs": {
+      "trackside": {
+        "highlightText": "We prepare everything you need and support you at every stage: equipment always in order, 360° technical assistance, coaching with telemetry data analysis and video review with line selection to help you grow and improve consistently—reaching national and international level results. The goal is simple: to let you race in the best possible conditions.",
+        "miniLeftTitle": "What you bring",
+        "miniLeftText": "Helmet, clothing and whatever you need to stay comfortable at the track.",
+        "miniRightTitle": "What we bring",
+        "miniRightText": "Technical support, organisation and essential equipment already prepared by the team."
+      },
+      "setup": {
+        "highlightText": "We take care of set up and checks so you hit the track with a kart that's ready and consistent: inspections, adjustments and technical management to maximise performance, reducing unexpected issues and wasted time.",
+        "miniLeftTitle": "What you bring",
+        "miniLeftText": "Your personal gear and whatever you prefer to have with you in the paddock.",
+        "miniRightTitle": "What we bring",
+        "miniRightText": "Checks, set up, technical support and operational management throughout the weekend."
+      },
+      "logistica": {
+        "highlightText": "We handle the organisational side of the weekend: preparation, coordination and continuous support. You travel light and focus on driving and performance—no stress and no unnecessary loads.",
+        "miniLeftTitle": "What you bring",
+        "miniLeftText": "You arrive light: personal gear and the essentials to stay comfortable.",
+        "miniRightTitle": "What we bring",
+        "miniRightText": "Organisation, essential equipment and full support already prepared by the team."
+      }
+    },
+    "kartingSchool": {
+      "title": "Karting School",
+      "lead": "A dedicated path for kids and teens, designed to enter karting the right way: gradual onboarding, driving technique, good habits and steady progression.\nFrom karting school to the first races, we support drivers and families with a clear method, realistic goals and track presence.",
+      "points": [
+        "Start young and progress by age and category",
+        "Training, technique, and a \"racer's\" mindset.",
+        "Competition support with dedicated assistance"
+      ],
+      "tipLabel": "Guided path",
+      "tipText": "Every driver has different timing: we build a tailored path, keeping consistency and peace of mind for both driver and family.",
+      "prev": "Previous slide",
+      "next": "Next slide",
+      "dotsLabel": "Select a photo",
+      "goTo": "Go to photo {index}",
+      "carouselLabel": "Karting school photo gallery",
+      "swipeHint": "Swipe",
+      "imgAlt": "Photo {index}"
+    }
+  },
+  "CookieBanner": {
     "title": "Cookies",
-    "text": "We use technical cookies required for the website to work. If we enable analytics or marketing cookies in the future, you’ll be able to manage your preferences at any time.",
+    "text": "We use technical cookies required for the website to work. If we enable analytics or marketing cookies in the future, you'll be able to manage your preferences at any time.",
     "accept": "Ok",
     "learnMore": "Learn more"
   },
   "CookieNotice": {
-  "ariaLabel": "Cookie notice",
-  "kicker": "Cookies",
-  "text": "We only use essential technical cookies required for the website to work and to store preferences (e.g., language). For more information, see our Privacy Policy.",
-  "privacyLink": "Privacy Policy",
-  "cookieLink": "Cookie Policy",
-  "ok": "OK"
-},
-"PrivacyPolicy": {
+    "ariaLabel": "Cookie notice",
+    "kicker": "Cookies",
+    "text": "We only use essential technical cookies required for the website to work and to store preferences (e.g., language). For more information, see our Privacy Policy.",
+    "privacyLink": "Privacy Policy",
+    "cookieLink": "Cookie Policy",
+    "ok": "OK"
+  },
+  "PrivacyPolicy": {
     "title": "Privacy Policy",
     "lead": "This notice explains how we process personal data when you browse the website.",
     "sections": {
@@ -239,8 +240,8 @@
         "body": "We only use strictly necessary technical cookies/storage required for the website to function (for example, language preference). We do not use marketing or profiling cookies. You can manage or delete cookies and stored data in your browser settings."
       },
       "thirdParties": {
-        "title": "5. Third-party services",
-        "body": "To display content (e.g., images/documents), the website may use technical third-party services (e.g., Google Drive and related services). These providers may receive technical browsing data (e.g., IP address) necessary to deliver the content."
+        "title": "5. Third party services",
+        "body": "To display content (e.g., images/documents), the website may use technical third party services (e.g., Google Drive and related services). These providers may receive technical browsing data (e.g., IP address) necessary to deliver the content."
       },
       "recipients": {
         "title": "6. Recipients",
@@ -264,7 +265,7 @@
       }
     }
   },
-   "Footer": {
+  "Footer": {
     "ariaFooter": "Site footer",
     "ariaSocial": "Social links",
     "ariaQuickLinks": "Quick links",
@@ -278,5 +279,4 @@
     "whatsappCta": "WhatsApp",
     "rights": "All rights reserved."
   }
-
 }

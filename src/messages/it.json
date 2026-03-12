@@ -14,7 +14,8 @@
   "About": {
     "kicker": "Chi siamo",
     "title": "Un team, una visione",
-    "lead": "Il team PKT nasce nel 2016 ed effettua le prime competizioni all’interno del campionato KartSport Circuit. In pochi anni, grazie alle richieste ed alla crescita del progetto, il team evolve da uno spirito amatoriale ad uno professionistico, partendo dalla partecipazione al campionato Iame X30 Italy ed aumentando negli anni gli impegni ed il livello delle competizioni karting a cui prende parte, arrivando ad  ottenere risultati di rilievo nei campionati a cui ha preso parte. Nelle ultime stagioni, frutto della passione del suo fondatore Stefano Matteuzzi e dell’impegno e della dedizione dei collaboratori, PKT si è strutturato per prendere parte a più campionati nella singola stagione per fornire e garantire un servizio di livello ai propri piloti; ciò ha consentito di ampliare il proprio know-how e strutturarsi come una realtà pronta a intraprendere nuove avventure agonistiche. Il nostro scopo è crescere e formare giovani piloti per affrontare al meglio gare di livello nazionale e internazionale con professionalità e disciplina. Lavoriamo in sinergia per offrire ai nostri clienti professionalità, qualità, efficienza ed eleganza, accompagnandoli nel raggiungimento dei propri sogni.",
+    "lead1": "Nato nel 2016, PKT cresce rapidamente da realtà amatoriale a team professionistico, partecipando al campionato IAME X30 Italy e ottenendo risultati di rilievo. Grazie alla passione del fondatore Stefano Matteuzzi e alla dedizione dei collaboratori, il team si è strutturato per competere in più campionati nella stessa stagione.",
+    "lead2": "Il nostro scopo è formare giovani piloti per affrontare gare nazionali e internazionali con professionalità e disciplina, accompagnandoli nel raggiungimento dei propri sogni.",
     "points": [
       "Dal 2016: crescita costante e risultati in pista",
       "Formazione e supporto per giovani piloti e famiglie",
@@ -112,14 +113,14 @@
       "kartingSchool": "Scuola Karting"
     },
     "tipLabel": "Percorso guidato",
-      "tipText": "Ogni pilota ha tempi diversi: costruiamo un percorso personalizzato, mantenendo costanza e serenità per pilota e famiglia.",
-      "prev": "Slide precedente",
-      "next": "Slide successiva",
-      "dotsLabel": "Seleziona una foto",
-      "goTo": "Vai alla foto {index}",
-      "carouselLabel": "Galleria foto scuola karting",
-      "swipeHint": "Scorri",
-      "imgAlt": "Foto {index}",
+    "tipText": "Ogni pilota ha tempi diversi: costruiamo un percorso personalizzato, mantenendo costanza e serenità per pilota e famiglia.",
+    "prev": "Slide precedente",
+    "next": "Slide successiva",
+    "dotsLabel": "Seleziona una foto",
+    "goTo": "Vai alla foto {index}",
+    "carouselLabel": "Galleria foto scuola karting",
+    "swipeHint": "Scorri",
+    "imgAlt": "Foto {index}",
     "highlightsAria": "Punti chiave dei servizi",
     "highlights": [
       {
@@ -137,7 +138,7 @@
     ],
     "assistance": {
       "title": "Assistenza",
-      "lead": "In gara conta arrivare pronti. Con il nostro servizio di assistenza ti seguiamo dalla preparazione al weekend di gara alla performance in pista, occupandoci di set-up, controlli e gestione operativa. L’attrezzatura essenziale è predisposta dal team: tu viaggi leggero e ti concentri su guida e prestazione, senza stress e senza carichi inutili.",
+      "lead": "In gara conta arrivare pronti. Con il nostro servizio di assistenza ti seguiamo dalla preparazione al weekend di gara alla performance in pista, occupandoci di set up, controlli e gestione operativa. L'attrezzatura essenziale è predisposta dal team: tu viaggi leggero e ti concentri su guida e prestazione, senza stress e senza carichi inutili.",
       "points": [
         "Supporto completo in pista e durante il weekend di gara",
         "Attrezzatura e necessario già predisposti dal team",
@@ -149,7 +150,7 @@
       "highlightText": "Organizzazione, supporto tecnico e tutto il necessario già pronto in pista: tu pensi solo a guidare.",
       "tabsAriaLabel": "Seleziona una categoria",
       "pill1": "Pista",
-      "pill2": "Set-up",
+      "pill2": "Set up",
       "pill3": "Logistica",
       "tabs": {
         "trackside": {
@@ -159,15 +160,39 @@
           "miniRightText": "Supporto tecnico, organizzazione ed attrezzatura essenziale già predisposta dal team."
         },
         "setup": {
-          "singleTitle": "Set-up",
+          "singleTitle": "Set up",
           "singleText": "Si lavora sempre per dare un mezzo adeguato e consono allo stile di guida del pilota con supporto tecnico di qualità e partner vincenti."
         },
         "logistica": {
           "miniLeftTitle": "Materiale e postazione",
           "miniLeftText": "Tutto il necessario è già in pista: tenda, area dedicata e postazione assegnata per ciascun pilota, con mezzi allestiti per coprire ogni esigenza del weekend.",
           "miniRightTitle": "Zona Hospitality",
-          "miniRightText": "Completa il servizio l’area Hospitality, dove accompagnatori e famiglie possono trascorrere il tempo in armonia durante i weekend di gara."
+          "miniRightText": "Completa il servizio l'area Hospitality, dove accompagnatori e famiglie possono trascorrere il tempo in armonia durante i weekend di gara."
         }
+      }
+    },
+    "tabsAriaLabel": "Seleziona una categoria",
+    "tabs": {
+      "trackside": {
+        "highlightText": "Prepariamo tutto il necessario e ti supportiamo in ogni fase: attrezzatura sempre in ordine, assistenza tecnica a 360°, coaching con analisi dati telemetrici e video review con scelta delle traiettorie per aiutarti a crescere e migliorare con continuità — arrivando a risultati di livello nazionale e internazionale. L'obiettivo è semplice: farti gareggiare nelle migliori condizioni possibili.",
+        "miniLeftTitle": "Cosa porti tu",
+        "miniLeftText": "Casco, abbigliamento e ciò che ti serve per stare comodo in pista.",
+        "miniRightTitle": "Cosa portiamo noi",
+        "miniRightText": "Supporto tecnico, organizzazione ed attrezzatura essenziale già predisposta dal team."
+      },
+      "setup": {
+        "highlightText": "Ci occupiamo di set up e controlli affinché tu scenda in pista con un mezzo pronto e costante: verifiche, regolazioni e gestione tecnica per massimizzare le prestazioni, riducendo imprevisti e tempi morti.",
+        "miniLeftTitle": "Cosa porti tu",
+        "miniLeftText": "Il tuo equipaggiamento personale e ciò che preferisci avere con te in paddock.",
+        "miniRightTitle": "Cosa portiamo noi",
+        "miniRightText": "Controlli, set up, supporto tecnico e gestione operativa per tutto il weekend."
+      },
+      "logistica": {
+        "highlightText": "Gestiamo la parte organizzativa del weekend: preparazione, coordinamento e supporto continuo. Tu viaggi leggero e ti concentri su guida e prestazione, senza stress e senza carichi inutili.",
+        "miniLeftTitle": "Cosa porti tu",
+        "miniLeftText": "Arrivi leggero: equipaggiamento personale e l'essenziale per stare comodo.",
+        "miniRightTitle": "Cosa portiamo noi",
+        "miniRightText": "Organizzazione, attrezzatura essenziale e supporto completo già predisposto dal team."
       }
     },
     "kartingSchool": {
@@ -222,8 +247,8 @@
       "purposes": {
         "title": "3. Finalità e base giuridica",
         "items": [
-          "Fornire e far funzionare il sito e le sue funzionalità (necessario per l’erogazione del servizio / legittimo interesse).",
-          "Memorizzare preferenze tecniche (es. lingua) per migliorare l’esperienza di navigazione (strettamente necessario).",
+          "Fornire e far funzionare il sito e le sue funzionalità (necessario per l'erogazione del servizio / legittimo interesse).",
+          "Memorizzare preferenze tecniche (es. lingua) per migliorare l'esperienza di navigazione (strettamente necessario).",
           "Sicurezza e prevenzione abusi (legittimo interesse)."
         ]
       },
@@ -233,7 +258,7 @@
       },
       "thirdParties": {
         "title": "5. Contenuti e servizi di terze parti",
-        "body": "Per mostrare contenuti (es. immagini/documenti) il sito può utilizzare servizi tecnici di terze parti (ad es. Google Drive e servizi correlati). Questi fornitori possono ricevere dati tecnici di navigazione (es. IP) necessari all’erogazione dei contenuti."
+        "body": "Per mostrare contenuti (es. immagini/documenti) il sito può utilizzare servizi tecnici di terze parti (ad es. Google Drive e servizi correlati). Questi fornitori possono ricevere dati tecnici di navigazione (es. IP) necessari all'erogazione dei contenuti."
       },
       "recipients": {
         "title": "6. Destinatari",
@@ -245,10 +270,10 @@
       },
       "retention": {
         "title": "8. Conservazione",
-        "body": "I dati tecnici sono conservati per il tempo strettamente necessario a garantire funzionamento e sicurezza del sito. Le preferenze restano memorizzate finché non vengono cancellate dall’utente."
+        "body": "I dati tecnici sono conservati per il tempo strettamente necessario a garantire funzionamento e sicurezza del sito. Le preferenze restano memorizzate finché non vengono cancellate dall'utente."
       },
       "rights": {
-        "title": "9. Diritti dell’interessato",
+        "title": "9. Diritti dell'interessato",
         "body": "Puoi esercitare i diritti previsti dagli artt. 15–22 GDPR (accesso, rettifica, cancellazione, opposizione, limitazione, portabilità) contattandoci ai recapiti indicati nel footer. Hai inoltre diritto di proporre reclamo al Garante per la protezione dei dati personali."
       },
       "updates": {

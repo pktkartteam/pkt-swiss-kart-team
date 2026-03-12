@@ -224,4 +224,23 @@
     height: 40px;
     width: 40px;
   }
+
+  .captionOverlay {
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    padding: 8px 10px;
+    border-radius: 10px;
+  }
+
+  .captionTitle {
+    font-size: 11px;
+    letter-spacing: 0.5px;
+  }
+
+  .captionText {
+    font-size: 11px;
+    margin-top: 4px;
+    line-height: 1.45;
+  }
 }
