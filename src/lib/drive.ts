@@ -91,3 +91,21 @@ export async function getPilotsFromDrive(rootFolderId: string): Promise<PilotDTO
   return p;
 }
 
+export async function getRacesFromDrive(folderId: string): Promise<{ id: string; photoUrl: string }[]> {
+  const drive = getDriveClient();
+
+  const res = await drive.files.list({
+    q: `'${folderId}' in parents and mimeType contains 'image/' and trashed=false`,
+    fields: "files(id, name)",
+    pageSize: 50,
+    supportsAllDrives: true,
+    includeItemsFromAllDrives: true,
+  });
+
+  const files = res.data.files ?? [];
+
+  return files.map((f) => ({
+    id: f.id!,
+    photoUrl: `/api/drive/${f.id}`,
+  }));
+}

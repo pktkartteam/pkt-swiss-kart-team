@@ -1,8 +1,8 @@
 export const runtime = "nodejs";
-export const revalidate = 3600;
 
+import { getRacesFromDrive } from "@/lib/drive";
 import { NextResponse } from "next/server";
-import { getRacesFromDrive } from "../drive/[fileId]/route";
+
 
 export async function GET() {
   try {

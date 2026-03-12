@@ -1,5 +1,4 @@
 export const runtime = "nodejs";
-export const revalidate = 3600;
 
 import { NextResponse } from "next/server";
 import { getPilotsFromDrive } from "@/lib/drive";

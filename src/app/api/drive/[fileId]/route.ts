@@ -4,7 +4,11 @@ import { NextResponse, type NextRequest } from "next/server";
 import { google, type drive_v3 } from "googleapis";
 import type { Readable } from "node:stream";
 
+let _driveClient: drive_v3.Drive | null = null;
+
 function getDriveClient(): drive_v3.Drive {
+  if (_driveClient) return _driveClient;
+
   const raw = process.env.GOOGLE_SERVICE_ACCOUNT_JSON;
   if (!raw) throw new Error("Missing GOOGLE_SERVICE_ACCOUNT_JSON");
   const credentials = JSON.parse(raw) as {
@@ -18,7 +22,8 @@ function getDriveClient(): drive_v3.Drive {
     scopes: ["https://www.googleapis.com/auth/drive.readonly"],
   });
 
-  return google.drive({ version: "v3", auth });
+  _driveClient = google.drive({ version: "v3", auth });
+  return _driveClient;
 }
 
 async function streamToBuffer(stream: Readable): Promise<Buffer> {
@@ -119,23 +124,4 @@ export async function GET(req: NextRequest, ctx: { params: Promise<{ fileId: str
 
     return NextResponse.json({ error: msg }, { status: 500 });
   }
-}
-
-export async function getRacesFromDrive(folderId: string): Promise<{ id: string; photoUrl: string }[]> {
-  const drive = getDriveClient();
-
-  const res = await drive.files.list({
-    q: `'${folderId}' in parents and mimeType contains 'image/' and trashed=false`,
-    fields: "files(id, name)",
-    pageSize: 50,
-    supportsAllDrives: true,
-    includeItemsFromAllDrives: true,
-  });
-
-  const files = res.data.files ?? [];
-
-  return files.map((f) => ({
-    id: f.id!,
-    photoUrl: `/api/drive/${f.id}`,
-  }));
 }
