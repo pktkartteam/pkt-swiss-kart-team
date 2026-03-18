@@ -104,36 +104,6 @@
   background: rgba(255, 210, 0, 0.18);
 }
 
-.timeline {
-  list-style: none;
-  padding: 0;
-  margin: 24px 0 0;
-}
-
-.timelineItem {
-  display: grid;
-  grid-template-columns: 18px 1fr;
-  gap: 12px;
-  padding: 12px 0;
-}
-
-.dot {
-  width: 10px;
-  height: 10px;
-  margin-top: 6px;
-  border-radius: 50%;
-  background: var(--yellow);
-}
-
-.timelineYear {
-  color: var(--yellow);
-  font-weight: 800;
-}
-
-.timelineTitle {
-  font-weight: 700;
-}
-
 .partnersGrid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));

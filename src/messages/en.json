@@ -52,28 +52,60 @@
     "lead": "From the team's early days to consistent growth on track: a journey built on method, discipline and clear goals.",
     "items": [
       {
-        "year": "2018",
+        "year": "2016",
         "title": "The team begins",
-        "desc": "First races, first experience, and a clear direction: progress through method.",
+        "desc": "PKT – Power Kart Team is founded by Stefano Matteuzzi. First 18 races in the Kartsport Brianza championship: the beginning of everything.",
         "icon": "flag",
-        "image": "/images/history/2018.jpg",
+        "image": "/images/history/2016.jpeg",
         "imageAlt": "Team first season"
       },
       {
+        "year": "2018",
+        "title": "IAME Series Italy",
+        "desc": "The team enters the IAME Series Italy championship with X30 engines, raising the competitive level and establishing itself as a professional outfit.",
+        "icon": "flag",
+        "image": "/images/history/2018.jpeg",
+        "imageAlt": "IAME Series Italy"
+      },
+      {
         "year": "2021",
-        "title": "Growth and results",
-        "desc": "More track time, early podiums, and a stronger team structure.",
+        "title": "Championships & drivers",
+        "desc": "Participation in Italian championships and the WSK. The roster grows: Gaia Bernasconi, Christian Canonica, Erika Lavazza and Mattia Vischi among the drivers.",
         "icon": "trophy",
-        "image": "/images/history/2021.jpg",
+        "image": "/images/history/2020.jpeg",
         "imageAlt": "Racing results"
       },
       {
+        "year": "2022",
+        "title": "EasyKart & new strategy",
+        "desc": "The team adopts a new approach, entering Birel's EasyKart championship. 3rd place in the BMB Challenge championship follows.",
+        "icon": "trophy",
+        "image": "/images/history/2022.jpeg",
+        "imageAlt": "EasyKart"
+      },
+      {
+        "year": "2024",
+        "title": "EasyKart Vice-Champion",
+        "desc": "Mattia Vischi claims the Vice-Champion title at the 2024 International EasyKart Final: the team's highest result to date.",
+        "icon": "star",
+        "image": "/images/history/2024.jpeg",
+        "imageAlt": "International EasyKart Final 2024"
+      },
+      {
         "year": "2025",
-        "title": "Karting school",
-        "desc": "Dedicated programmes to develop young drivers and bring them into competition.",
-        "icon": "graduation",
-        "image": "/images/history/2025.jpg",
-        "imageAlt": "Karting school"
+        "title": "The year of success",
+        "desc": "Return to major championships: IAME Series Italy, Rok Cup and Swiss Championship. 3rd place in IAME Italy Junior and Senior, 3rd in the Swiss Championship, with multiple podiums throughout the season.",
+        "icon": "trophy",
+        "image": "/images/history/2025.jpeg",
+        "imageAlt": "2025 season"
+      },
+      {
+        "year": "2026",
+        "title": "New goals",
+        "desc": "An ambitious programme: IAME Series Italy, regional championship and World Finals OKN, OKNJ and IAME IWF in Viterbo. The team keeps growing.",
+        "icon": "rocket",
+        "image": "/images/history/2026.jpg",
+        "imageAlt": "2026 goals"
       }
     ]
   },
@@ -81,15 +113,33 @@
     "partnersTitle": "Partners",
     "supportersTitle": "Supporters",
     "items": {
-      "stilo": { "name": "Stilo" },
-      "rgm": { "name": "RGM Tech" },
-      "afradiator": { "name": "AF Radiator" },
-      "iame": { "name": "IAME Motorsport" },
-      "winteler": { "name": "Winteler" },
-      "galetti": { "name": "Galetti Pneumatici" },
-      "finardi": { "name": "Finardi & Partners" },
-      "csp": { "name": "CSP" },
-      "torsion_project": { "name": "Torsion Project" }
+      "stilo": {
+        "name": "Stilo"
+      },
+      "rgm": {
+        "name": "RGM Tech"
+      },
+      "afradiator": {
+        "name": "AF Radiator"
+      },
+      "iame": {
+        "name": "IAME Motorsport"
+      },
+      "winteler": {
+        "name": "Winteler"
+      },
+      "galetti": {
+        "name": "Galetti Pneumatici"
+      },
+      "finardi": {
+        "name": "Finardi & Partners"
+      },
+      "csp": {
+        "name": "CSP"
+      },
+      "torsion_project": {
+        "name": "Torsion Project"
+      }
     }
   },
   "DriversRaces": {
@@ -101,7 +151,7 @@
   "RacesCalendar": {
     "kicker": "Drivers & Races",
     "title": "Race calendar",
-    "lead": "All season dates and track events."
+    "lead": "All season dates and track events.\nAutomatically updated via Google Drive."
   },
   "Services": {
     "kicker": "Overview",
@@ -115,13 +165,22 @@
     "imgAlt": "Photo {index}",
     "highlightsAria": "Key service highlights",
     "highlights": [
-      { "title": "Trackside assistance", "text": "Vehicle setup, spare parts, coaching, and race weekend management." },
-      { "title": "Karting school", "text": "A guided path for kids and teens, from basics to first races." },
-      { "title": "Progression", "text": "Method, realistic goals and steady improvement race after race." }
+      {
+        "title": "Trackside assistance",
+        "text": "Vehicle setup, spare parts, coaching, and race weekend management."
+      },
+      {
+        "title": "Karting school",
+        "text": "A guided path for kids and teens, from basics to first races."
+      },
+      {
+        "title": "Progression",
+        "text": "Method, realistic goals and steady improvement race after race."
+      }
     ],
     "assistance": {
       "title": "Assistance",
-      "lead": "On race weekends, being ready makes all the difference. With our assistance service, we support you from preparation to on track performance, handling set up, checks, and operational management. Essential equipment is prepared by the team: you travel light and focus on driving and performance—no stress, no unnecessary load.",
+      "lead": "On race weekends, being ready makes all the difference. With our assistance service, we support you from preparation to on-track performance, handling set-up, checks, and operational management. Essential equipment is prepared by the team: you travel light and focus on driving and performance—no stress, no unnecessary load.",
       "points": [
         "Full trackside support throughout the race weekend",
         "Equipment and essentials already prepared by the team",
@@ -129,11 +188,11 @@
       ],
       "noteLabel": "Why it works",
       "noteText": "We reduce the organizational workload and increase the quality of your time on track: more focus, more consistency, better results.",
-      "highlightTitle": "A worry free weekend",
+      "highlightTitle": "A worry-free weekend",
       "highlightText": "Organization, technical support, and everything you need already at the track: you just focus on driving.",
       "tabsAriaLabel": "Select a category",
       "pill1": "Trackside",
-      "pill2": "Set up",
+      "pill2": "Set-up",
       "pill3": "Logistics",
       "tabs": {
         "trackside": {
@@ -143,8 +202,8 @@
           "miniRightText": "Technical support, organization, and essential equipment already prepared by the team."
         },
         "setup": {
-          "singleTitle": "Set up",
-          "singleText": "We always work to deliver a kart that matches the driver's style, with high quality technical support and winning partners."
+          "singleTitle": "Set-up",
+          "singleText": "We always work to deliver a kart that matches the driver's style, with high-quality technical support and winning partners."
         },
         "logistica": {
           "miniLeftTitle": "Equipment & pit area",
@@ -157,18 +216,18 @@
     "tabsAriaLabel": "Select a category",
     "tabs": {
       "trackside": {
-        "highlightText": "We prepare everything you need and support you at every stage: equipment always in order, 360° technical assistance, coaching with telemetry data analysis and video review with line selection to help you grow and improve consistently—reaching national and international level results. The goal is simple: to let you race in the best possible conditions.",
+        "highlightText": "We prepare everything you need and support you at every stage: equipment always in order, 360° technical assistance, coaching with telemetry data analysis and video review with line selection to help you grow and improve consistently—reaching national and international-level results. The goal is simple: to let you race in the best possible conditions.",
         "miniLeftTitle": "What you bring",
         "miniLeftText": "Helmet, clothing and whatever you need to stay comfortable at the track.",
         "miniRightTitle": "What we bring",
         "miniRightText": "Technical support, organisation and essential equipment already prepared by the team."
       },
       "setup": {
-        "highlightText": "We take care of set up and checks so you hit the track with a kart that's ready and consistent: inspections, adjustments and technical management to maximise performance, reducing unexpected issues and wasted time.",
+        "highlightText": "We take care of set-up and checks so you hit the track with a kart that's ready and consistent: inspections, adjustments and technical management to maximise performance, reducing unexpected issues and wasted time.",
         "miniLeftTitle": "What you bring",
         "miniLeftText": "Your personal gear and whatever you prefer to have with you in the paddock.",
         "miniRightTitle": "What we bring",
-        "miniRightText": "Checks, set up, technical support and operational management throughout the weekend."
+        "miniRightText": "Checks, set-up, technical support and operational management throughout the weekend."
       },
       "logistica": {
         "highlightText": "We handle the organisational side of the weekend: preparation, coordination and continuous support. You travel light and focus on driving and performance—no stress and no unnecessary loads.",
@@ -240,8 +299,8 @@
         "body": "We only use strictly necessary technical cookies/storage required for the website to function (for example, language preference). We do not use marketing or profiling cookies. You can manage or delete cookies and stored data in your browser settings."
       },
       "thirdParties": {
-        "title": "5. Third party services",
-        "body": "To display content (e.g., images/documents), the website may use technical third party services (e.g., Google Drive and related services). These providers may receive technical browsing data (e.g., IP address) necessary to deliver the content."
+        "title": "5. Third-party services",
+        "body": "To display content (e.g., images/documents), the website may use technical third-party services (e.g., Google Drive and related services). These providers may receive technical browsing data (e.g., IP address) necessary to deliver the content."
       },
       "recipients": {
         "title": "6. Recipients",

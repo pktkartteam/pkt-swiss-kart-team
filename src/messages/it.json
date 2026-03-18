@@ -15,7 +15,7 @@
     "kicker": "Chi siamo",
     "title": "Un team, una visione",
     "lead1": "Nato nel 2016, PKT cresce rapidamente da realtà amatoriale a team professionistico, partecipando al campionato IAME X30 Italy e ottenendo risultati di rilievo. Grazie alla passione del fondatore Stefano Matteuzzi e alla dedizione dei collaboratori, il team si è strutturato per competere in più campionati nella stessa stagione.",
-    "lead2": "Il nostro scopo è formare giovani piloti per affrontare gare nazionali e internazionali con professionalità e disciplina, accompagnandoli nel raggiungimento dei propri sogni.",
+    "lead2": "Il nostro scopo è formare giovani piloti per affrontare gare nazionali e internazionali con professionalità e disciplina — accompagnandoli nel raggiungimento dei propri sogni.",
     "points": [
       "Dal 2016: crescita costante e risultati in pista",
       "Formazione e supporto per giovani piloti e famiglie",
@@ -52,28 +52,60 @@
     "lead": "Dalla nascita del team alla crescita in pista: un percorso fatto di metodo, costanza e obiettivi chiari.",
     "items": [
       {
-        "year": "2018",
+        "year": "2016",
         "title": "Nasce il team",
-        "desc": "Prime gare, prime esperienze e una direzione chiara: crescere con metodo.",
+        "desc": "PKT – Power Kart Team viene fondato da Stefano Matteuzzi. Prime 18 gare nel campionato Kartsport Brianza: l'inizio di tutto.",
         "icon": "flag",
-        "image": "/images/history/2018.jpg",
+        "image": "/images/history/2016.jpeg",
         "imageAlt": "Prima stagione del team"
       },
       {
+        "year": "2018",
+        "title": "IAME Series Italy",
+        "desc": "Il team entra nel campionato IAME Series Italy con i motori X30, alzando il livello delle competizioni e strutturandosi come realtà professionale.",
+        "icon": "flag",
+        "image": "/images/history/2018.jpeg",
+        "imageAlt": "IAME Series Italy"
+      },
+      {
         "year": "2021",
-        "title": "Crescita e risultati",
-        "desc": "Aumentano le attività in pista, arrivano i primi podi e la squadra si struttura.",
+        "title": "Campionati e piloti",
+        "desc": "Partecipazione ai campionati italiani e al WSK. Il roster cresce: Gaia Bernasconi, Christian Canonica, Erika Lavazza, Mattia Vischi tra i piloti seguiti.",
         "icon": "trophy",
-        "image": "/images/history/2021.jpg",
+        "image": "/images/history/2020.jpeg",
         "imageAlt": "Gara e risultati"
       },
       {
+        "year": "2022",
+        "title": "EasyKart & nuova strategia",
+        "desc": "Il team adotta un nuovo approccio, entrando nel campionato EasyKart di Birel. Arriva il 3° posto nel campionato BMB Challenge.",
+        "icon": "trophy",
+        "image": "/images/history/2022.jpeg",
+        "imageAlt": "EasyKart"
+      },
+      {
+        "year": "2024",
+        "title": "Vicecampione EasyKart",
+        "desc": "Mattia Vischi conquista il titolo di Vicecampione alla International Final EasyKart 2024: il risultato più alto fino a quel momento.",
+        "icon": "star",
+        "image": "/images/history/2024.jpeg",
+        "imageAlt": "International Final EasyKart 2024"
+      },
+      {
         "year": "2025",
-        "title": "Scuola karting",
-        "desc": "Percorsi dedicati per formare giovani piloti e accompagnarli in gara.",
-        "icon": "graduation",
-        "image": "/images/history/2025.jpg",
-        "imageAlt": "Scuola karting"
+        "title": "L'anno dei successi",
+        "desc": "Ritorno ai grandi campionati: IAME Series Italy, Rok Cup e Campionato Svizzero. 3° posto nell'IAME Italy Junior e Senior, 3° nel Campionato Svizzero, numerosi podi in stagione.",
+        "icon": "trophy",
+        "image": "/images/history/2025.jpeg",
+        "imageAlt": "Stagione 2025"
+      },
+      {
+        "year": "2026",
+        "title": "Nuovi obiettivi",
+        "desc": "Programma ambizioso: IAME Series Italy, campionato regionale e Finali Mondiali OKN, OKNJ e IAME IWF a Viterbo. Il team continua a crescere.",
+        "icon": "rocket",
+        "image": "/images/history/2026.jpg",
+        "imageAlt": "Obiettivi 2026"
       }
     ]
   },
@@ -81,15 +113,33 @@
     "partnersTitle": "Partners",
     "supportersTitle": "Supporters",
     "items": {
-      "stilo": { "name": "Stilo" },
-      "rgm": { "name": "RGM Tech" },
-      "afradiator": { "name": "AF Radiator" },
-      "iame": { "name": "IAME Motorsport" },
-      "winteler": { "name": "Winteler" },
-      "galetti": { "name": "Galetti Pneumatici" },
-      "finardi": { "name": "Finardi & Partners" },
-      "csp": { "name": "CSP" },
-      "torsion_project": { "name": "Torsion Project" }
+      "stilo": {
+        "name": "Stilo"
+      },
+      "rgm": {
+        "name": "RGM Tech"
+      },
+      "afradiator": {
+        "name": "AF Radiator"
+      },
+      "iame": {
+        "name": "IAME Motorsport"
+      },
+      "winteler": {
+        "name": "Winteler"
+      },
+      "galetti": {
+        "name": "Galetti Pneumatici"
+      },
+      "finardi": {
+        "name": "Finardi & Partners"
+      },
+      "csp": {
+        "name": "CSP"
+      },
+      "torsion_project": {
+        "name": "Torsion Project"
+      }
     }
   },
   "DriversRaces": {
@@ -101,7 +151,7 @@
   "RacesCalendar": {
     "kicker": "Piloti & Gare",
     "title": "Calendario gare",
-    "lead": "Tutte le date della stagione e gli appuntamenti in pista."
+    "lead": "Tutte le date della stagione e gli appuntamenti in pista.\nAggiornato automaticamente tramite Google Drive."
   },
   "Services": {
     "kicker": "Panoramica",
@@ -138,7 +188,7 @@
     ],
     "assistance": {
       "title": "Assistenza",
-      "lead": "In gara conta arrivare pronti. Con il nostro servizio di assistenza ti seguiamo dalla preparazione al weekend di gara alla performance in pista, occupandoci di set up, controlli e gestione operativa. L'attrezzatura essenziale è predisposta dal team: tu viaggi leggero e ti concentri su guida e prestazione, senza stress e senza carichi inutili.",
+      "lead": "In gara conta arrivare pronti. Con il nostro servizio di assistenza ti seguiamo dalla preparazione al weekend di gara alla performance in pista, occupandoci di set-up, controlli e gestione operativa. L'attrezzatura essenziale è predisposta dal team: tu viaggi leggero e ti concentri su guida e prestazione, senza stress e senza carichi inutili.",
       "points": [
         "Supporto completo in pista e durante il weekend di gara",
         "Attrezzatura e necessario già predisposti dal team",
@@ -150,7 +200,7 @@
       "highlightText": "Organizzazione, supporto tecnico e tutto il necessario già pronto in pista: tu pensi solo a guidare.",
       "tabsAriaLabel": "Seleziona una categoria",
       "pill1": "Pista",
-      "pill2": "Set up",
+      "pill2": "Set-up",
       "pill3": "Logistica",
       "tabs": {
         "trackside": {
@@ -160,7 +210,7 @@
           "miniRightText": "Supporto tecnico, organizzazione ed attrezzatura essenziale già predisposta dal team."
         },
         "setup": {
-          "singleTitle": "Set up",
+          "singleTitle": "Set-up",
           "singleText": "Si lavora sempre per dare un mezzo adeguato e consono allo stile di guida del pilota con supporto tecnico di qualità e partner vincenti."
         },
         "logistica": {
@@ -181,11 +231,11 @@
         "miniRightText": "Supporto tecnico, organizzazione ed attrezzatura essenziale già predisposta dal team."
       },
       "setup": {
-        "highlightText": "Ci occupiamo di set up e controlli affinché tu scenda in pista con un mezzo pronto e costante: verifiche, regolazioni e gestione tecnica per massimizzare le prestazioni, riducendo imprevisti e tempi morti.",
+        "highlightText": "Ci occupiamo di set-up e controlli affinché tu scenda in pista con un mezzo pronto e costante: verifiche, regolazioni e gestione tecnica per massimizzare le prestazioni, riducendo imprevisti e tempi morti.",
         "miniLeftTitle": "Cosa porti tu",
         "miniLeftText": "Il tuo equipaggiamento personale e ciò che preferisci avere con te in paddock.",
         "miniRightTitle": "Cosa portiamo noi",
-        "miniRightText": "Controlli, set up, supporto tecnico e gestione operativa per tutto il weekend."
+        "miniRightText": "Controlli, set-up, supporto tecnico e gestione operativa per tutto il weekend."
       },
       "logistica": {
         "highlightText": "Gestiamo la parte organizzativa del weekend: preparazione, coordinamento e supporto continuo. Tu viaggi leggero e ti concentri su guida e prestazione, senza stress e senza carichi inutili.",

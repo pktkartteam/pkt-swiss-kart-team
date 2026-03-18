@@ -15,7 +15,7 @@ export interface HistoryItem {
   year: string;
   title: string;
   desc: string;
-  icon?: "flag" | "trophy" | "graduation";
+  icon?: "flag" | "trophy" | "graduation" | "star" | "rocket";
   image?: string;
   imageAlt?: string;
 };
@@ -77,3 +77,12 @@ export interface Pilot {
   since: number;
   photoUrl?: string;
 }
+
+export type TimelineItem = {
+  year: string;
+  title: string;
+  desc: string;
+  icon?: "flag" | "trophy" | "graduation" | "star" | "rocket";
+  image?: string;
+  imageAlt?: string;
+};
