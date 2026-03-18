@@ -257,7 +257,6 @@
   transform: translateX(130%);
 }
 
-/* ─── Mobile ─── */
 @media (max-width: 480px) {
   .heroMedia {
     transform: none;
@@ -266,6 +265,17 @@
     left: 0;
     right: 0;
     height: 42svh;
+  }
+
+  .hero {
+    min-height: unset;
+    height: auto;
+    padding-bottom: 24px;
+  }
+
+  .container {
+    min-height: unset;
+    padding-top: calc(42svh + 16px);
   }
 
   .firstSlide {
@@ -277,10 +287,6 @@
   .firstSlide .heroImg {
     object-fit: contain;
     object-position: center;
-  }
-
-  .container {
-    padding-top: 0;
   }
 
   .dots {
