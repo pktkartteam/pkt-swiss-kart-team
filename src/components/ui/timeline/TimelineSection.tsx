@@ -11,7 +11,6 @@ import RocketLaunchIcon from "@mui/icons-material/RocketLaunch";
 import styles from "./TimelineSection.module.scss";
 import { TimelineItem } from "@/types/types";
 
-
 function ItemIcon({ icon }: { icon?: TimelineItem["icon"] }) {
   const sx = { fontSize: 16, color: "rgba(10,12,16,0.9)" };
   switch (icon) {
@@ -46,6 +45,8 @@ function TimelineCard({ item, index }: { item: TimelineItem; index: number }) {
                 fill
                 sizes="(max-width: 600px) 92vw, (max-width: 900px) 45vw, 420px"
                 style={{ objectFit: "cover", objectPosition: "center" }}
+                loading="lazy"
+                quality={80}
               />
               <div className={styles.imageOverlay} aria-hidden />
             </div>

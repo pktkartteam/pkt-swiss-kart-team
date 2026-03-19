@@ -151,7 +151,7 @@
   "RacesCalendar": {
     "kicker": "Drivers & Races",
     "title": "Race calendar",
-    "lead": "All season dates and track events.\nAutomatically updated via Google Drive."
+    "lead": "All season dates and track events."
   },
   "Services": {
     "kicker": "Overview",
