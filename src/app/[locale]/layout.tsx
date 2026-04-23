@@ -25,7 +25,8 @@ export const metadata: Metadata = {
   title: "PKT Swiss Kart Team",
   description: "Sito ufficiale del team di karting PKT",
   icons: {
-    icon: '/icon.ico',
+    icon: [{ url: "/icon.ico", type: "image/x-icon", sizes: "any" }],
+    shortcut: ["/icon.ico"],
   },
 };
 
