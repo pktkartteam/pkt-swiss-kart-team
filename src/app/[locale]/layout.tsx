@@ -25,8 +25,14 @@ export const metadata: Metadata = {
   title: "PKT Swiss Kart Team",
   description: "Sito ufficiale del team di karting PKT",
   icons: {
-    icon: [{ url: "/favicon.ico", type: "image/x-icon", sizes: "any" }],
+    icon: [
+      { url: "/icon.svg", type: "image/svg+xml", sizes: "any" },
+      { url: "/favicon-32x32.png", type: "image/png", sizes: "32x32" },
+      { url: "/favicon-48x48.png", type: "image/png", sizes: "48x48" },
+      { url: "/favicon.ico", type: "image/x-icon", sizes: "any" },
+    ],
     shortcut: ["/favicon.ico"],
+    apple: [{ url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }],
   },
 };
 
